@@ -36,9 +36,9 @@ and open the template in the editor.
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Inicio</a></li>
                         <li><a href="about-us.html">Login</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li> 
+                        <li><a href="services.html">Jovenes</a></li>
+                        <li><a href="portfolio.html">Vamos </a></li>
+                        <li><a href="blog.html">Dassa</a></li> 
                         <li><a href="contact-us.html">Contact</a></li>                        
                     </ul>
                 </div>
