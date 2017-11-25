@@ -7,40 +7,20 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+         <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">      
+	<link href="css/main.css" rel="stylesheet">
+	 <link href="css/responsive.css" rel="stylesheet">
         <title></title>
     </head>
     <body>
         <?php
-        // put your code here
+        //menu
+            include_once './modules/menu.php';
         ?>
-        <header id="header">
-        <nav class="navbar navbar-fixed-top" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">Gp.</a>
-                </div>
-				
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li> 
-                        <li><a href="contact-us.html">Contact</a></li>                        
-                    </ul>
-                </div>
-            </div><!--/.container-->
-        </nav><!--/nav-->
-		
-    </header><!--/header-->
-	
+       
 	<div class="slider">
 		<div class="container">
 			<div id="about-slider">
@@ -54,14 +34,18 @@ and open the template in the editor.
 
 					<div class="carousel-inner">
 						<div class="item active">
-							<img src="images/slider_one.jpg" class="img-responsive" alt=""> 
+                                                    <img src="images/Aso/SistemasB.jpg" class="img-responsive" alt=""> 
 					   </div>
 					   <div class="item">
-							<img src="images/slider_one.jpg" class="img-responsive" alt=""> 
+                                               <img src="images/Aso/CiercomB.jpg" class="img-responsive" alt=""> 
 					   </div> 
 					   <div class="item">
-							<img src="images/slider_one.jpg" class="img-responsive" alt=""> 
+                                               <img src="images/Aso/CitexB.jpg" class="img-responsive" alt=""> 
 					   </div> 
+					   <div class="item">
+                                               <img src="images/Aso/CinduB.jpg" class="img-responsive" alt=""> 
+					   </div> 
+ 
 					</div>
 					
 					<a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
@@ -456,28 +440,10 @@ and open the template in the editor.
 		</div><!--/.container-->
 	</div><!--/.top-bar-->
 	
-	<footer id="footer" class="midnight-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2015 <a target="_blank" href="http://bootstraptaste.com/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">bootstraptaste</a>. All Rights Reserved.
-                </div>
-                <!-- 
-                    All links in the footer should remain intact. 
-                    Licenseing information is available at: http://bootstraptaste.com/license/
-                    You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Gp
-                -->
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer><!--/#footer-->
+<?php
+include_once './modules/footer.php';
+?>
+        
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.js"></script>
